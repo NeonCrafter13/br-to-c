@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+u_int8_t memory[255] = {};
+u_int8_t pointer = 0;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+while (memory[pointer] != 0) {
+pointer++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+while (memory[pointer] != 0) {
+pointer++;
+memory[pointer]++;
+memory[pointer]++;
+pointer++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+pointer++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+pointer++;
+memory[pointer]++;
+pointer--;
+pointer--;
+pointer--;
+pointer--;
+memory[pointer]--;
+}
+pointer++;
+memory[pointer]++;
+pointer++;
+memory[pointer]++;
+pointer++;
+memory[pointer]--;
+pointer++;
+pointer++;
+memory[pointer]++;
+while (memory[pointer] != 0) {
+pointer--;
+}
+pointer--;
+memory[pointer]--;
+}
+pointer++;
+pointer++;
+printf("%c", memory[pointer]);
+pointer++;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+printf("%c", memory[pointer]);
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+printf("%c", memory[pointer]);
+printf("%c", memory[pointer]);
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+printf("%c", memory[pointer]);
+pointer++;
+pointer++;
+printf("%c", memory[pointer]);
+pointer--;
+memory[pointer]--;
+printf("%c", memory[pointer]);
+pointer--;
+printf("%c", memory[pointer]);
+memory[pointer]++;
+memory[pointer]++;
+memory[pointer]++;
+printf("%c", memory[pointer]);
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+printf("%c", memory[pointer]);
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+memory[pointer]--;
+printf("%c", memory[pointer]);
+pointer++;
+pointer++;
+memory[pointer]++;
+printf("%c", memory[pointer]);
+pointer++;
+memory[pointer]++;
+memory[pointer]++;
+printf("%c", memory[pointer]);
+}
